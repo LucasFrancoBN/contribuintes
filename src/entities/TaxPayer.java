@@ -47,6 +47,46 @@ public class TaxPayer {
     return grossTax() - taxRebate();
   }
 
+  public Double getSalaryIncome() {
+    return salaryIncome;
+  }
+
+  public void setSalaryIncome(Double salaryIncome) {
+    this.salaryIncome = salaryIncome;
+  }
+
+  public Double getServiceIncome() {
+    return serviceIncome;
+  }
+
+  public void setServiceIncome(Double serviceIncome) {
+    this.serviceIncome = serviceIncome;
+  }
+
+  public Double getCapitalIncome() {
+    return capitalIncome;
+  }
+
+  public void setCapitalIncome(Double capitalIncome) {
+    this.capitalIncome = capitalIncome;
+  }
+
+  public Double getHealthSpending() {
+    return healthSpending;
+  }
+
+  public void setHealthSpending(Double healthSpending) {
+    this.healthSpending = healthSpending;
+  }
+
+  public Double getEducationSpending() {
+    return educationSpending;
+  }
+
+  public void setEducationSpending(Double educationSpending) {
+    this.educationSpending = educationSpending;
+  }
+
   public String toString() {
     return String.format("Imposto bruto total: %.2f%n", grossTax()) +
            String.format("Abatimento: %.2f%n", taxRebate()) +
