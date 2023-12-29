@@ -65,14 +65,19 @@ Antes de tudo, recomendo que você, pelo terminal, navegue até o diretório Des
 # Clone o repositório
 git clone https://github.com/LucasFrancoBN/contribuintes.git
 
-# Acesse o diretório do projeto
-cd contribuintes/src
+# Acesse o diretório da classe Program
+cd contribuintes/src/application
 ```
 Agora basta você digitar no seu terminal
 ```bash
 # Compile o projeto
-javac Program.java
+javac Program.java ../entities/TaxPayer.java
+```
+Retroceda ao diretório src e compile o programa
+```
+# Retrocedendo ao diretório src
+cd ../
 
 # Execute o programa
-java Program
+java application.Program
 ```
