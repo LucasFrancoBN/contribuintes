@@ -3,8 +3,8 @@
 A meta do desafio proposto pelo curso DevSuperior é ler os dados de N contribuintes, salvá-los em uma lista e, então, exibir um relatório do imposto de cada contribuinte. As regras do desafio são:
 
 1. **Imposto sobre Salário:**
-   A pessoa paga imposto sobre seu salário conforme a tabela abaixo:
-
+   - A pessoa paga imposto sobre seu salário conforme a tabela abaixo:
+     
    | Salário mensal | Imposto   |
    | -------------  | --------- |
    | Abaixo de 3000 por mês | Isento |
@@ -12,13 +12,13 @@ A meta do desafio proposto pelo curso DevSuperior é ler os dados de N contribui
    | 5000 ou acima | 20% |
 
 2. **Imposto sobre Prestação de Serviços:**
-   Se a pessoa obteve renda com prestação de serviços, o imposto cobrado é de 15%.
+   - Se a pessoa obteve renda com prestação de serviços, o imposto cobrado é de 15%.
 
 3. **Imposto sobre Ganho de Capital:**
-   Se a pessoa obteve ganho de capital (imóveis, ações, etc.), o imposto cobrado é de 20%.
+   - Se a pessoa obteve ganho de capital (imóveis, ações, etc.), o imposto cobrado é de 20%.
 
 4. **Deduções:**
-   A pessoa pode abater até 30% do seu imposto bruto devido com gastos médicos ou educacionais. No entanto, se seus gastos médicos e educacionais forem abaixo desses 30%, apenas os gastos médicos e educacionais podem ser abatidos.
+   - A pessoa pode abater até 30% do seu imposto bruto devido com gastos médicos ou educacionais. No entanto, se seus gastos médicos e educacionais forem abaixo desses 30%, apenas os gastos médicos e educacionais podem ser abatidos.
 
 5. **Seguir o diagrama de classe:**
  
