@@ -21,6 +21,8 @@ A meta do desafio proposto pelo curso DevSuperior é ler os dados de N contribui
    A pessoa pode abater até 30% do seu imposto bruto devido com gastos médicos ou educacionais. No entanto, se seus gastos médicos e educacionais forem abaixo desses 30%, apenas os gastos médicos e educacionais podem ser abatidos.
 
 5. **Seguir o diagrama de classe:**
+ 
+   ![Diagrama de classe](https://github.com/LucasFrancoBN/contribuintes/blob/master/img/diagrama_classe.png)
    
 
 ## Exemplo
